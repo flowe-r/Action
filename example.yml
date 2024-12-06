@@ -1,0 +1,8 @@
+- name: Check Tickets
+  uses: mooyoul/melon-ticket-actions@v1.1.0
+  with:
+    product-id: 210649             # 替换为目标票务的 Product ID
+    schedule-id: 011117            # 替换为目标排期的 Schedule ID
+    seat-id: F1_13                   # 替换为目标座位 ID
+    slack-incoming-webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
+    message: '<@U12345678> 票务更新啦！快去查看~'  # 自定义消息
