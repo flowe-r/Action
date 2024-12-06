@@ -13,5 +13,5 @@ jobs:
           product-id: 210649
           schedule-id: 011117
           seat-id: F1_13
-          slack-incoming-webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
+          slack-incoming-webhook-url: https://hooks.slack.com/services/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
           message: '<@U12345678> 快抢票啦！'
