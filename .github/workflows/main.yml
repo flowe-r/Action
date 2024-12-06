@@ -10,8 +10,8 @@ jobs:
       - name: Check Tickets
         uses: mooyoul/melon-ticket-actions@v1.1.0
         with:
-          product-id: 204755
-          schedule-id: 100001
-          seat-id: 1_0
+          product-id: 210649
+          schedule-id: 011117
+          seat-id: F1_13
           slack-incoming-webhook-url: ${{ secrets.SLACK_WEBHOOK_URL }}
           message: '<@U12345678> 快抢票啦！'
